@@ -36,5 +36,167 @@
 
         <button type="submit" style="background-color:brown">Submit</button>
     </form>
+    <br> <br>
+    <form action="">
+        <input type="range" min="0" max="100" step="10">
+        <br>
+        <input type="date" min="2026-09-01" max="2026-09-10">
+        <br> <br>
+        <input type="text">
+        <br> <br>
+        <input type="text">
+        <br>
+
+        <button>Submit</button>   <!-- default type of button is submit it sumit the data and refresh the page-->
+        
+        <button type="reset">clear</button> <!-- understand the diffrence between type reset and type submit-->
+
+    </form>
+
+    <!--fieldset and legend-->
+
+    <fieldset>
+        <legend>Sign up</legend>
+        <form action="">
+        <input type="range" min="0" max="100" step="10">
+        <br>
+        <input type="date" min="2026-09-01" max="2026-09-10">
+        <br> <br>
+        <input type="text">
+        <br> <br>
+        <input type="text">
+        <br>
+
+        <button>Submit</button>   <!-- default type of button is submit it sumit the data and refresh the page-->
+        
+        <button type="reset">clear</button> <!-- understand the diffrence between type reset and type submit-->
+
+    </form>
+    </fieldset>
+
+    <!--textArea-->
+    <input type="text">
+    <br> <br>
+    <textarea name="feedback" id="feedback"></textarea>
+
+    <fieldset>
+        <form action="">
+            <select name="state" id="state"> Select state
+                <option value="state">Maharashtra</option>
+                <option value="state">madhya pradesh</option>
+                <option value="state">punjab</option>
+                <option value="state">uttar pradesh</option>
+                <option value="state">telangana</option>
+                <option value="state">Andhra pradesh</option>
+                <option value="state">kerala</option>
+                <option value="state">karnataka</option>
+                <option value="state">tamilnadu</option>
+                <option value="state">aasam</option>
+                <option value="state">sikkim</option>
+                <option value="state">mizoram</option>
+                <option value="state">manipur</option>
+                <option value="state">jammu and kashmir</option>
+                <option value="state">hariyana</option>
+                <option value="state">bihar</option>
+                <option value="state">gujrat</option>
+                <option value="state">rajasthan</option>
+                <option value="state">goa</option>
+                <option value="state">Arunachal pradesh</option>
+                <option value="state">chhattisgarh</option>
+                <option value="state">himachal pradesh</option>
+                <option value="state">jharkhand</option>
+                <option value="state">meghalay</option>
+                <option value="state">nagaland</option>
+                <option value="state">odisha</option>
+                <option value="state">tripura</option>
+                <option value="state">west bengal</option>
+
+
+            </select>
+        </form>
+    </fieldset>
+
+    <!-- <fieldset>
+        <legend>Registration form</legend>
+        <form action="">
+            <label>Student name</label>
+            <br> <br>
+            <input type="text" id="first_name"> 
+            <br> <br>
+            <label for="first_name">first name</label>
+
+            <input type="text" id="last_name" style="margin-left: 200px;">
+            <br> <br>
+            <label for="last_name" style="margin-left: 200px;">last name</label>
+
+
+
+
+
+
+        </form>
+    </fieldset> -->
+
+    <fieldset>
+        <legend>Registrtation Form</legend>
+
+        <form action="">
+            <label >Student name</label>
+            <br><br>
+            <div style="display: inline-block;">
+                <input type="text" id="first_name" required>
+                <br><br>    
+                <label for="first_name">first name</label>
+            </div>
+
+            <div style="display: inline-block; margin-left: 100px;">
+                <input type="text" id="last_name">
+                <br> <br>
+                <label for="last_name">last name</label>
+            </div>
+            <br> <br>
+
+            <div style="display: inline-block;">
+                <label for="gender">Select Gender  </label>
+                <br><br>
+                <select name="gender" id="gender">
+                <option value="Male">MALE</option>
+                <option value="Female">FEMALE</option>
+                <option value="Other">OTHER</option>
+            </select>
+            </div>
+
+            <div style="display: inline-block; margin-left: 180px;">
+                <label for="student_email">Student Email</label>
+                <br><br>
+                <input type="email" id="student_email">
+
+            </div>
+
+            <br><br>
+
+            <div style="display: inline-block;">
+                <label for="student_id">Student ID</label>
+                <br><br>
+                <input type="text" >
+            </div>
+
+            <div style="display: inline-block; margin-left: 100px;">
+                <label for="list_of_classes">List of Classes</label>
+                <br><br>
+                <select name="class" id="list_of_classes">
+                    <option value="web technology">WEB TECHNOLOGY</option>
+                    <option value="data science">DATA SCIENCE</option>
+                    <option value="data analytics">DATA ANALYTICS</option>
+                    <option value="mern stack">MERN STACK</option>
+                    <option value="machine learning">MACHINE LEARNING</option>
+                </select>
+            </div>
+            <br><br> <br>   
+            <button type="submit" style="margin-left: 200px;">Submit</button>
+
+
+        </form>
+    </fieldset>
 </body>
 </html>
