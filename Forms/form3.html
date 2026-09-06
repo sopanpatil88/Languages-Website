@@ -36,14 +36,14 @@
 
     <div>
         <label for="age">Age</label>
-        <input type="number" id="age" placeholder="Enter an age">
+        <input type="number" id="age" name="Age" placeholder="Enter an age">
     </div>
 
     <br> <br>
 
     <div>
         <label for="dob">Date Of Birth</label>
-        <input type="date" id="dob" min="2000-01-01"
+        <input type="date" id="dob" name="DOB" min="2000-01-01"
        max="2010-12-31">   <!--how to take min date and max date interval-->
 
     </div>
@@ -76,7 +76,7 @@
         </select>
     </div>
     <br>
-    <div>
+    <!-- <div>
         <label>Skills</label>
 
         <ul type="square">
@@ -85,20 +85,37 @@
             <li>JAVA</li>
             <li>PYTHON</li>
         </ul>
-    </div>
+    </div> -->
+
+    <label>Skills</label>
+    <br><br>
+    <input type="checkbox" id="html" name="Skill" value="HTML">
+    <label for="html">HTML</label>
+    <br>
+    <input type="checkbox" id="css" name="Skill" value="CSS">
+    <label for="css">CSS</label>
+    
+    <br>
+    <input type="checkbox" id="java" name="Skill" value="JAVA">
+    <label for="java">JAVA</label>
+    
+    <br>
+    <input type="checkbox" id="python" name="Skill" value="PYTHON">
+    <label for="python">PYTHON</label>
+    
+    <br>
     <br>
     <div>
         <label for="phone">Phone Number</label>
-        <input type="tel" value="+91 " id="phone">
+        <input type="tel" value="+91 " name="Phone" id="phone">
     </div>
 <br>
     <div>
-        <b>Address</b> 
+        <label for="address">Address</label>
         <Address>
-            <p>(At Shibdara M po. Chinchgavhan tq. Hadgaon Dist. Nanded</p>
-            <a href="tel: +918767505542" style="text-decoration: none;">📞phone</a>
-            <br>
-            <a href="mailto:sopanc542@gmail.com" style="text-decoration: none;">💌sopanc542@gmail.com</a>)
+            <textarea name="address" id="address" rows="4" cols="6" placeholder="Enter address here">
+
+            </textarea>
         </Address>
         
     </div>
@@ -112,12 +129,12 @@
     <div>
         <label for="website">Website</label>
         <br>
-        <input type="url" id="website">
+        <input type="url" id="website" name="Website">
     </div>
     <br> <br>
     <div>
         <label for="search">Search</label>
-        <input type="text" id="search">
+        <input type="search" id="search"  name="Search">
     </div>
     <br>
     <div>
